@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Manrope", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.custom-padding {
+  @apply px-6 py-8 md:px-16 md:py-20;
+}
+
+.custom-container {
+  @apply h-screen flex flex-col custom-padding bg-[#f4f4f4];
+}
+
+.menu-button {
+  @apply text-sm md:text-base tracking-widest font-medium flex items-center gap-4 mt-auto;
+}
+
+.black-bg {
+  @apply bg-[#1d1f1e];
+}
