@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 
 const Skill = ({ icon, name }) => {
   return (
-    <div className=" flex items-center gap-2 text-sm md:text-base font-medium rounded-3xl border px-2 py-2">
+    <div className=" flex items-center gap-2 text-sm md:text-base font-medium px-2 py-2">
       {icon}
       <span>{name}</span>
     </div>
